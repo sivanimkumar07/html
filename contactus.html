@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact us</title>
+</head>
+<body>
+    <h1>Contact us</h1>
+    <form action="login.html">
+        <label for="fname">Fullname</label><br>
+        <input type="text" id="fname" pattern="[a-z]" title="please enter letter only" placeholder="enter username" required><br>
+        <label for="phone number">Phone number</label><br>
+        <input type="tel" max="1-10" title="enter numers only" placeholder="enter number" required><br>
+        <label for="commType">Type of Communication:</label>
+        <select id="commType" name="commType" required><br>
+            <option value="" disabled selected>Select an option</option><br>
+            <option value="sales">Sales</option>
+            <option value="service">Service</option>
+            <option value="enquiry">Enquiry</option>
+            <option value="advertisement">Advertisement</option>
+            <option value="complaint">Complaint</option>
+        </select><br>
+        <label for="discription"> enter your discription:</label>
+        <input type="discription" pattern="[a-z]" title="enter letters only" placeholder="enter discription" required><br>
+        <input type="submit">
+    </form>
+    <a href="http://127.0.0.1:5500/news.html">Go  to home page</a>
+
+</body>
+</html>
